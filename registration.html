@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iron Fit | Registration Form</title>
+</head>
+<body>
+    <h2>Muscle Gym Member Registration</h2>
+    <label>Name</label>: <input type="text" placeholder="Firstname"> <input type="text" placeholder="Lastname" required><br><br>
+    <label>Phone Number</label>: <input type="text" required><br><br>
+    <label>Email</label>: <input type="email" required><br><br>
+    <label>Age</label>: <input type="text" required><br><br>
+    <label>Date Of Birth</label>: <input type="date" required><br><br>
+    <label>Gender</label>: <input type="radio" id="101" name="gender"><label for="101">Male</label><input type="radio" id="102" name="gender"><label for="102">Female</label><br><br>
+    <label>Address</label>: <textarea rows="2" cols="40"></textarea><br><br>
+
+    <div id="membershipDetails">
+   <form>
+    <fieldset>
+        <legend>
+            Membership Details
+        </legend><br>
+            <label>Joining Date</label>: <input type="date"><br>
+            <label>Membership Type</label>: <input type="radio">Basic(gym) <input type="radio"> Gold(gym + cardio)  <input type="radio"> Premium(gym + cardio + crossfit)<br><br>
+            <label>Duration</label>: <select>
+                <option>1 Month</option>
+                <option>3 Month</option>
+                <option>6 Month</option>
+                <option>12 Month</option>
+            </select><br />
+            <br />
+            Are you Interested in any of the following? 
+            <br />
+            <input type="checkbox" name="add-on" value="yoga" id="1"><label for="1">yoga</label>
+            <input type="checkbox" name="add-on" value="free-pt" id="2"><label for="2">Free PT Trail</label>
+            <input type="checkbox" name="add-on" value="zumba" id="3"><label for="3">zumba</label>
+            <input type="checkbox" name="add-on" value="piloxing" id="4"><label for="4">piloxing</label>
+            <input type="checkbox" name="add-on" value="diet" id="5"><label for="5">diet planning</label>
+            <br />
+            <br />
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button><br />
+            <a href="index.html">Back</a>
+    </fieldset>
+ </form> 
+    </div>
+</body>
+</html>
